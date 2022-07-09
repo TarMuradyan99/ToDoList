@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mybook{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.myfolder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(179, 192, 192);
+    
+}
+.mysearchdiv{
+   margin-top: 20px;
+   height: 10vh;
+    width: 20%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+.mynamediv{
+    margin-top: 20px;
+    height: 10vh;
+    width: 20%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+.mysurnamediv{
+    margin-top: 20px;
+    height: 10vh;
+    width: 20%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+.myagediv{
+    margin-top: 20px;
+    height: 10vh;
+    width: 20%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+.myhobbydiv{
+    margin-top: 20px;
+    height: 10vh;
+    width: 20%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+
+.myresult{
+    list-style-type: none;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    border: 1px solid blue;
+    background-color: coral;
+    height: 5vh;
+
+}
+
+.myresult * {
+    margin-right: 5px;
+}
+.res{
+    margin-top: 30px;
+    
+}
